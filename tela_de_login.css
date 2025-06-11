@@ -13,6 +13,7 @@ body{
     background-image: url(imagens/Capa\ Simples\ De\ Casamento\ Folhas\ Verdes\ Fundo\ Planta\ Tropical\,\ Casamento\,\ Barra\,\ Cafeteria\ Imagem\ de\ plano\ de\ fundo\ para\ download\ gratuito.jpeg);
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .login-form{
@@ -23,7 +24,7 @@ body{
     backdrop-filter: blur(25px);
     text-align: center;
     color: #ffffff;
-    width: 400px;
+    width: 100%;
     box-shadow: 0px 0px 20px 10px rgba(0 0 0 0.15);
 }
 
