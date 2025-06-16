@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color:  #FFFAFA;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    padding: 1rem 3rem;
+    color: #ffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
