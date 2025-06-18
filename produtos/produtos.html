@@ -9,8 +9,12 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="produtos.css">
 </head>
-
 <body>
+    <audio id="meuAudio" src="/trabalho-tf-idweb2025/som/LoFi Boom Bap Workout-Full.wav" autoplay loop hidden controls controlsList="nodownload" volume="0.2">seu navegador não suporta esse audio</audio>
+    <script>
+        const audio = document.getElementById("meuAudio");
+        audio.volume = 0.01;
+    </script>
     <header>
         <nav class=" navbar navbar-expand-lg" style="background-color: #cdd8d3;">
             <div class="container-fluid">
@@ -27,8 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item px-5">
-                            <a class="nav-link" aria-current="page" href="/trabalho-tf-idweb2025/Home/index.html">Página
-                                Inicial</a>
+                            <a class="nav-link" aria-current="page" href="/trabalho-tf-idweb2025/Home/index.html">Página Inicial</a>
                         </li>
                         <li class="nav-item px-5">
                             <a class="nav-link active" href="#">Produtos</a>
@@ -52,7 +55,7 @@
     </header>
 
     <section class="container">
-        <h1>Confira todos os produtos</h1>
+        <h1 class="text">Confira todos os produtos</h1>
         <div class="row text-center prod-list">
             <div class="col-12 col-md-6 col-lg-4 text-center">
                 <img class="img-fluid" src="/trabalho-tf-idweb2025/img/prod1.png" alt="">
