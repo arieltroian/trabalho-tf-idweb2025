@@ -67,3 +67,6 @@ a:hover {
     transform: translateY(-20px) rotateX(10deg) scale(1.05);
 }
 
+.card {
+  display: inline-block;
+}
