@@ -1,4 +1,3 @@
-
 document.querySelector('form[role="search"]').addEventListener('submit', function(event) {
     event.preventDefault();
     const pesquisa = document.querySelector('input[type="search"]').value.toLowerCase();
