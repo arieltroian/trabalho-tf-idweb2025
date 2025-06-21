@@ -16,3 +16,6 @@ if (termoBuscar);
     if (!encontrou) {
         alert('nenhum produto encontrado.');
 }
+
+const toastElList = document.querySelectorAll('.toast')
+const toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, option))
