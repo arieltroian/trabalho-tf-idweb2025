@@ -25,3 +25,7 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
 }
+
+section {
+    height: 100%;
+}
